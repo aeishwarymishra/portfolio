@@ -67,6 +67,11 @@ class I,J research;
 
 
 
+
+
+
+
+
 ```mermaid
 graph TD
 
@@ -151,6 +156,11 @@ class I,J research;
 
 
 
+
+
+
+
+
 ```mermaid
 graph TD
 
@@ -206,6 +216,16 @@ class C,K edu;
 class G,H outreach;
 class I,J research;
 ```
+
+
+
+
+
+
+
+
+
+
 ```mermaid
 graph TB
   %% Center hub
@@ -255,6 +275,13 @@ graph TB
   F --- V4
   F --- V5
 ```
+
+
+
+
+
+
+
 ```mermaid
 graph TD
   A[Aeishwary.com - Personal OS]
