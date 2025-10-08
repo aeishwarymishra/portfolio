@@ -1,11 +1,11 @@
 ```mermaid
 graph TD
   A[Aeishwary.com — Personal OS / Identity SaaS]
-  B[ATRISI.org — Research & PBAR Methodology]
+  B[ATRISI.org — Research & PBAR]
   C[Aeishwary Academy — Training & Consulting]
-  D[JoaLLM.ai — AI / LLM Workbench]
+  D[JoaLLM.ai — LLM Workbench]
   E[StockShark.in — Quant Trading Lab]
-  F[RetailRemap.com / SilkSagas.com — Vertical Experiments]
+  F[RetailRemap.com / SilkSagas.com — Verticals]
   G[Twisting with AI — Newsletter / Public Thought]
   H[LinkedIn / GitHub / Public APIs]
   I[PBAR Framework (P, R, C)]
@@ -19,9 +19,9 @@ graph TD
   A --> F
   A --> G
   A --> H
-
   B --> I
   B --> J
   C --> K
+
 
 ```
