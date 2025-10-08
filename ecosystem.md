@@ -11,7 +11,6 @@ graph TD
   I[PBAR Framework (P, R, C)]
   J[Researcher Cloud / Platform.ATRISI.org]
   K[Corporate Programs / Bootcamps]
-
   A --> B
   A --> C
   A --> D
