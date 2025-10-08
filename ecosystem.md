@@ -62,6 +62,11 @@ class G,H outreach;
 class I,J research;
 
 ```
+
+
+
+
+
 ```mermaid
 graph TD
 
@@ -142,6 +147,10 @@ class C,K edu;
 class G,H outreach;
 class I,J research;
 ```
+
+
+
+
 ```mermaid
 graph TD
 
@@ -196,6 +205,55 @@ class B,D,E,F,V1,V2,V3,V4,V5 product;
 class C,K edu;
 class G,H outreach;
 class I,J research;
+```
+```mermaid
+graph TB
+  %% Center hub
+  A[Aeishwary.com<br/>Identity Hub]
+
+  %% Rings of spokes
+  subgraph Top[" "]
+    B[ATRISI.org<br/>Research]
+    C[Aeishwary Academy<br/>Training]
+  end
+  subgraph Right[" "]
+    D[JoaLLM.ai<br/>LLM Workbench]
+    E[StockShark.in<br/>Quant Lab]
+  end
+  subgraph Bottom[" "]
+    F[KAMGOVE<br/>Commercial Verticals]
+    G[Twisting with AI<br/>Newsletter]
+  end
+  subgraph Left[" "]
+    H[LinkedIn · GitHub<br/>Public]
+    I[PBAR<br/>Framework]
+  end
+
+  %% KAMGOVE Ventures
+  subgraph KV[" "]
+    V1[RetailRemap]
+    V2[SilkSagas]
+    V3[Being Banarasi]
+    V4[LegalMind AI]
+    V5[Twai.ai]
+  end
+
+  %% Spokes
+  A --- B
+  A --- C
+  A --- D
+  A --- E
+  A --- F
+  A --- G
+  A --- H
+  A --- I
+
+  %% KAMGOVE fan-out
+  F --- V1
+  F --- V2
+  F --- V3
+  F --- V4
+  F --- V5
 ```
 ```mermaid
 graph TD
