@@ -14,7 +14,7 @@ subgraph PL[Platforms]
   B[ATRISI.org - Research]
   D[JoaLLM.ai - LLM Workbench]
   E[StockShark.in - Quant Lab]
-  F[RetailRemap - SilkSagas - Verticals]
+  F[KAMGOVE - Commercial Verticals]
 end
 
 %% ---------- Education ----------
