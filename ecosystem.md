@@ -12,7 +12,7 @@ end
 
 %% ---------- Platforms ----------
 subgraph PL[Platforms]
-  B[ATRISI.org - Research]
+  B[ATRISI.org - Meta Research]
   D[JoaLLM.ai - LLM Workbench]
   E[StockShark.in - Quant Lab]
   F[KAMGOVE - Commercial Verticals]
@@ -86,7 +86,7 @@ end
 
 %% ---------- Platforms ----------
 subgraph PL[Platforms]
-  B[ATRISI.org - Research]
+  B[ATRISI.org - Meta Research]
   D[JoaLLM.ai - LLM Workbench]
   E[StockShark.in - Quant Lab]
   F[KAMGOVE - Commercial Verticals]
