@@ -102,9 +102,10 @@ subgraph KV[Commercial Verticals]
 end
 
 %% ---------- Education ----------
-subgraph ED[Education]
+subgraph ED[Education and Consulting]
   C[Aeishwary Academy - Training]
   K[Corporate Bootcamps]
+  L[Consulting]
 end
 
 %% ---------- Outreach ----------
@@ -149,7 +150,7 @@ classDef research fill:#f3e8ff,color:#3b0a5e,stroke:#a78bfa,stroke-width:1.5px;
 class A core;
 class B,D,E,F product;
 class V1,V2,V3,V4,V5 product;
-class C,K edu;
+class C,K,L edu;
 class G,H outreach;
 class I,J research;
 ```
