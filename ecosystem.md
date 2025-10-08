@@ -12,9 +12,9 @@ end
 %% ---------- Platforms ----------
 subgraph PL[Platforms]
   B[ATRISI.org - Research]
-  D[JoaLLM.ai - LLM Workbench/Lab]
+  D[JoaLLM.ai - LLM Workbench]
   E[StockShark.in - Quant Lab]
-  F[KAMGROVE -Verticals(Commercial]
+  F[RetailRemap - SilkSagas - Verticals]
 end
 
 %% ---------- Education ----------
@@ -34,7 +34,6 @@ subgraph RS[Research Stack]
   I[PBAR Framework]
   J[Researcher Cloud]
 end
-
 
 %% ================== EDGES ==================
 A --> B
@@ -61,6 +60,7 @@ class B,D,E,F product;
 class C,K edu;
 class G,H outreach;
 class I,J research;
+
 ```
 
 
